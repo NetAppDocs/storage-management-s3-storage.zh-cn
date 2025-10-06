@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-change-s3-bucket-settings.html 
 keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
-summary: 当您的 Amazon S3 系统在“系统”页面中可用时，您可以直接从NetApp控制台更改某些存储桶属性。 
+summary: 当您的 Amazon S3 系统在“系统”页面中可用时，您可以直接从NetApp Console更改某些存储桶属性。 
 ---
 = 更改 S3 存储桶设置
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 当您的 Amazon S3 系统在“系统”页面中可用时，您可以
 
 
 [role="lead"]
-当您的 Amazon S3 系统在“系统”页面中可用时，您可以直接从NetApp控制台更改某些存储桶属性。
+当您的 Amazon S3 系统在“系统”页面中可用时，您可以直接从NetApp Console更改某些存储桶属性。
 
 请注意，您无法更改存储桶名称、AWS 帐户、区域或对象锁定设置。
 
@@ -27,7 +27,7 @@ summary: 当您的 Amazon S3 系统在“系统”页面中可用时，您可以
 
 您可以通过单击直接更改这些存储桶设置image:button-horizontal-more.gif["三个点更多按钮"]拿一桶。
 
-image:screenshot-edit-amazon-s3-bucket.png["显示如何选择“管理器详细信息”按钮来编辑存储桶属性的屏幕截图。"]
+image:screenshot-edit-amazon-s3-bucket.png["该屏幕截图显示了如何选择“管理器详细信息”按钮来编辑存储桶属性。"]
 
 
 
@@ -47,7 +47,7 @@ image:screenshot-amazon-s3-versioning.png["显示如何更改存储桶的版本�
 
 标签是可用于对资源进行分组以识别应用程序、环境、区域、云提供商等的元数据。标签由标签键和标签值组成。您可以向存储桶添加标签，以便在将对象添加到存储桶时将标签应用于对象。您还可以更改和删除标签和标签值。
 
-默认情况下， NetApp控制台创建的新存储桶中的标签是禁用的。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html["从 Amazon S3 文档了解有关标记的更多信息"^] 。
+默认情况下， NetApp Console创建的新存储桶中的标签是禁用的。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html["从 Amazon S3 文档了解有关标记的更多信息"^] 。
 
 image:screenshot-amazon-s3-tags.png["显示如何为存储桶添加新标签键/值对的屏幕截图。"]
 
@@ -59,7 +59,7 @@ image:screenshot-amazon-s3-tags.png["显示如何为存储桶添加新标签键/
 
 服务器端加密使您能够在 Amazon S3 目标处加密数据。 Amazon S3 在将数据写入磁盘时在对象级别加密您的数据，并在您访问数据时为您解密。当将来的对象添加到存储桶时，您可以更改所使用的加密设置。
 
-默认情况下，使用NetApp控制台创建的新存储桶中的“Amazon S3 托管密钥 (SSE-S3)”启用加密。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html["从 Amazon S3 文档了解有关服务器端加密的更多信息"^] 。
+默认情况下，使用NetApp Console创建的新存储桶中的“Amazon S3 托管密钥 (SSE-S3)”启用加密。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html["从 Amazon S3 文档了解有关服务器端加密的更多信息"^] 。
 
 或者，您可以选择使用“AWS 密钥管理服务密钥 (SSE-KMS)”启用加密。您也可以使用自己的客户提供的密钥（SSE-C）进行加密，但此功能无法通过控制台 UI 获得 - 您必须使用 Amazon 界面。
 

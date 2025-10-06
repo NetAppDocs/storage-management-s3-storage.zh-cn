@@ -47,4 +47,4 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 
 通知文件提供有关NetApp软件中使用的第三方版权和许可的信息。
 
-https://docs.netapp.com/us-en/console-setup-admin/media/notice.pdf["NetApp控制台通知"^]
+https://docs.netapp.com/us-en/console-setup-admin/media/notice.pdf["NetApp Console通知"^]
