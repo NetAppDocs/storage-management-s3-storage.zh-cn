@@ -1,0 +1,31 @@
+---
+indexpage:
+  title: Amazon S3 存储文档
+  summary: 开始通过NetApp控制台使用 Amazon S3 存储。
+  keywords: amazon s3, storage, bluexp, netapp console
+  lead: 开始通过NetApp控制台使用 Amazon S3 存储。
+  tiles:
+  - title: 开始使用
+    links:
+    - title: 查看您的 Amazon S3 存储桶
+      url: task-viewing-amazon-s3.html
+  - title: 管理 S3 存储桶
+    links:
+    - title: 添加 S3 存储桶
+      url: task-add-s3-bucket.html
+    - title: 更改存储桶设置
+      url: task-change-s3-bucket-settings.html
+    - title: 将NetApp数据服务与 S3 存储桶结合使用
+      url: task-s3-enable-data-services.html
+  - title: 更多信息
+    links:
+    - title: NetApp控制台之外的管理 Amazon S3 文档
+      url: https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-buckets-s3.html
+  - title: 博客和社区
+    links:
+    - title: NetApp控制台
+      url: https://www.netapp.com/console
+    - title: NetApp数据服务
+      url: https://www.netapp.com/data-services/
+    - title: NetApp 社区
+      url: https://community.netapp.com/

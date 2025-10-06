@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-viewing-amazon-s3.html 
+keywords: s3 buckets, s3 storage, s3 working environment, s3 system, amazon s3 buckets, amazon s3 working environment, amazon s3 system 
+summary: 在 AWS 中安装控制台代理后， NetApp控制台可以自动发现有关安装了控制台代理的 AWS 账户中的 Amazon S3 存储桶的信息。已将 Amazon S3 系统添加到“系统”页面，以便您可以查看此信息。 
+---
+= 查看您的 Amazon S3 存储桶
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+在 AWS 中安装控制台代理后， NetApp控制台可以自动发现有关安装了控制台代理的 AWS 账户中的 Amazon S3 存储桶的信息。已将 Amazon S3 系统添加到“系统”页面，以便您可以查看此信息。
+
+您可以查看有关 S3 存储桶的详细信息，包括区域、访问策略、帐户、总容量和已用容量等。这些存储桶可用作NetApp备份和恢复、 NetApp分层或NetApp复制和同步操作的目标。此外，您可以使用NetApp数据分类来扫描这些存储桶。
+
+.步骤
+. https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-connector-aws.html["安装控制台代理"^]在您想要查看 Amazon S3 存储桶的 AWS 账户中。
+. 从NetApp控制台菜单中，选择“*存储*”，然后选择“*管理*”。
++
+不久之后您应该会自动看到您的 Amazon S3 系统。
+
+
+
+image:screenshot-amazon-s3-we.png["Amazon S3 系统的屏幕截图。"]
+
+. 如果您想使用 S3 存储启用NetApp控制台服务，请单击系统并从右侧窗格中选择一个操作。
++
+link:task-s3-enable-data-services.html["查看哪些NetApp控制台服务可用，并了解如何将它们与您的 S3 存储桶一起使用"] 。
+
+. 单击*进入 S3 系统*，或双击系统，查看有关您的 AWS 账户中的 S3 存储桶的详细信息。
++
+除了默认显示的列之外，您还可以滚动页面来查看存储桶的其他属性；例如，标签的数量，以及是否启用了对象锁定或版本控制。
+
+
+
+.下一步
+您可以通过单击NetApp控制台直接更改某些存储桶设置image:button-horizontal-more.gif["三个点更多按钮"]拿一桶。link:task-change-s3-bucket-settings.html["点击此处了解详情"] 。
+
+您可以通过单击“添加存储桶”来添加新的 S3 存储桶。link:task-add-s3-bucket.html["点击此处了解详情"] 。

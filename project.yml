@@ -1,0 +1,39 @@
+---
+settings:
+  name: Amazon S3 storage
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: zh-cn,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-tw
+sidebar:
+  entries:
+  - title: Amazon S3 存储文档
+    url: "/index.html"
+  - title: 发行说明
+    url: "/whats-new.html"
+  - title: 开始使用
+    entries:
+    - title: 查看您的 Amazon S3 存储桶
+      url: "/task-viewing-amazon-s3.html"
+  - title: 管理 S3 存储桶
+    entries:
+    - title: 添加 S3 存储桶
+      url: "/task-add-s3-bucket.html"
+    - title: 更改 S3 存储桶设置
+      url: "/task-change-s3-bucket-settings.html"
+    - title: 将NetApp数据服务与 S3 存储桶结合使用
+      url: "/task-s3-enable-data-services.html"
+  - title: 知识和支持
+    entries:
+    - title: 注册以获得支持
+      url: "/task-support-registration.html"
+    - title: 获取帮助
+      url: "/task-get-help.html"
+  - title: 法律声明
+    url: "/legal-notices.html"
+product-family:
+  name: Storage Management
+  repo: storage-management-family

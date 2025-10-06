@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="912b3a604a5106bda5b0c99ddaaf1364" category="doc">能够从BlueXP添加新存储桶</block>
+  <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">了解如何添加新的 Amazon S3 存储桶</block>
+  <block id="5e7b506ddcb37df2fdbf21f6eaed65d6" category="paragraph">您已经能够在BlueXP Canvas 上查看 Amazon S3 存储桶很长一段时间了。现在您可以直接从BlueXP添加新的存储桶并更改现有存储桶的属性。<block ref="f0047d35a3b71c36a6aefb7ce54c7ec6" category="inline-link-rx"></block> 。</block>
+  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP现在是NetApp控制台</block>
+  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetApp控制台建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp数据服务，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。</block>
+  <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">NetApp控制台发行说明</block>
+  <block id="9fad6bb6d30ac060d7377371e39b12c0" category="paragraph">有关更改的详细信息，请参阅<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block>。</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商标</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP、NETAPP 徽标和NetApp商标页面上列出的标志是NetApp, Inc. 的商标。其他公司和产品名称可能是其各自所有者的商标。</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">专利</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp拥有的专利的最新列表可以在以下位置找到：</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隐私政策</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开源</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关NetApp软件中使用的第三方版权和许可的信息。</block>
+  <block id="50dbf63cd0ab8144a287e5cd6a0f1de2" category="inline-link">NetApp控制台通知</block>
+  <block id="c87093fc5ce0aab848deaeae14c761b9" category="paragraph"><block ref="c87093fc5ce0aab848deaeae14c761b9" category="inline-link-rx"></block></block>
+  <block id="9b0db63220dcb42c8f014abc9ddfec70" category="summary">当您的 Amazon S3 系统在“系统”页面中可用时，您可以直接从NetApp控制台添加其他存储桶。</block>
+  <block id="9fed572004c981252beb21bc105f5af0" category="doc">添加 S3 存储桶</block>
+  <block id="4c1be2d8a6d5bddb276995b29b0ba88a" category="paragraph">当您的 Amazon S3 系统在“系统”页面中可用时，您可以直接从NetApp控制台添加其他存储桶。</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
+  <block id="4f304db3b8e0b8131a9f1fcb4d8feaf4" category="list-text">在“系统”页面中，双击 Amazon S3 系统以查看“Amazon S3 存储桶概览”页面，然后单击“添加存储桶”。</block>
+  <block id="7905235e0b9d47c87993bfcf15c3dd50" category="paragraph">将显示“添加存储桶”页面。</block>
+  <block id="aefffbad8b88d1c38a2002080479d936" category="list-text">在“添加存储桶”页面中，输入创建存储桶所需的信息，然后单击“应用”。</block>
+  <block id="0b70185623faa55e384834695ae8d364" category="list-text">输入您想要使用的存储桶名称。</block>
+  <block id="e2048bec1874c7f3b40ac64c7eb61a19" category="inline-link">您添加到NetApp控制台的不同帐户</block>
+  <block id="39ec797e48cb983c86e5a8a963246bf0" category="list-text">选择将成为存储桶所有者的 AWS 账户。这可以是部署控制台代理的主帐户，也可以是<block ref="ef549bd79a83f188875fad2972424979" category="inline-link-rx"></block>。</block>
+  <block id="0122311ed1a57dce15e992365a9457e2" category="list-text">选择将创建存储桶的 AWS 区域。</block>
+  <block id="949a961e422bda6c898ac6590ce47cb8" category="inline-link">从 Amazon S3 文档了解有关对象锁定的更多信息</block>
+  <block id="d87ea88e84d5837b06e24d3c7e16b421" category="list-text">或者，您可以在存储桶上启用 S3 对象锁定，以使用一次写入多次读取 (WORM) 模型存储对象。如果您计划使用对象锁定，则必须在创建存储桶时启用它。启用对象锁也会启用版本控制。<block ref="1399ee2a35dec21bba05889732a3a632" category="inline-link-rx"></block> 。</block>
+  <block id="157d206d0cc91be4095d98f9df679cf4" category="paragraph">存储桶已创建。</block>
+  <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">下一步</block>
+  <block id="a73444cc5dd6f6171b437eedb6a7d462" category="inline-link-macro">了解有关更改存储桶设置的更多信息</block>
+  <block id="daf6241c571815ccb6a2fba56c3d3d3a" category="paragraph">首次添加存储桶时，您无法手动配置版本控制、标签或加密。创建存储桶后，您可以配置存储桶的其他属性。<block ref="b8a8855fb27be3598054e27761fb286f" category="inline-link-macro-rx"></block> 。</block>
+  <block id="6f4c69d2867f9fbd595ed22e321d538d" category="summary">当您的 Amazon S3 系统在“系统”页面中可用时，您可以直接从NetApp控制台更改某些存储桶属性。</block>
+  <block id="03d1d7c5f3e9143c651013d5a8df19ed" category="doc">更改 S3 存储桶设置</block>
+  <block id="98b683df18d829ab5d0c1a0667ef090e" category="paragraph">请注意，您无法更改存储桶名称、AWS 帐户、区域或对象锁定设置。</block>
+  <block id="c1e90160a62fa1921449efb18231f40d" category="paragraph">您可以更改的存储桶属性包括：</block>
+  <block id="7aa72240c8357c1ccb645c4ed54fc655" category="list-text">是否对存储桶中的所有对象启用或禁用版本控制。</block>
+  <block id="d92cc14996cce4261a7042bf7143a0eb" category="list-text">您可以选择将标签应用于添加到存储桶的对象。</block>
+  <block id="7178af2148dd1317957ac72803a11101" category="list-text">添加到存储桶的新对象是否加密，以及用于加密的选项。</block>
+  <block id="8844ea245d7c08ab2233754002d80b15" category="inline-image-macro">三个点更多按钮</block>
+  <block id="eb94a1e4342c20c5c2f3558833688e28" category="paragraph">您可以通过单击直接更改这些存储桶设置<block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block>拿一桶。</block>
+  <block id="03e28e82e5ae57af9a5632a915905ac6" category="inline-image-macro">显示如何选择“管理器详细信息”按钮来编辑存储桶属性的屏幕截图。</block>
+  <block id="b1663f0a11aefa655b800e4525611bc7" category="paragraph"><block ref="b1663f0a11aefa655b800e4525611bc7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c1271f859cb12c5ef9b0c1934c2075f1" category="section-title">更改版本控制设置</block>
+  <block id="bb818b7bb7e952216e5edeed36b98b25" category="paragraph">版本控制使您能够在存储桶中保留对象的多个版本，以便您可以恢复意外删除或覆盖的对象。当将来的对象添加到存储桶时，您可以更改其版本控制设置。更改版本控制设置不会改变现有对象的值。</block>
+  <block id="753bbae9e70bd29b4b752a888c7f83aa" category="inline-link">从 Amazon S3 文档了解有关版本控制的更多信息</block>
+  <block id="36554e4a71b2bdf575545c86b388817b" category="paragraph">除非您在创建存储桶时启用了对象锁定，否则新存储桶中的版本控制默认是禁用的。<block ref="e0ba6451fd1bf2a059fdd9f9e325cee9" category="inline-link-rx"></block> 。</block>
+  <block id="280e8bf189cc090641938d5fb185e08c" category="paragraph">启用后，如果想暂时或永久停止版本控制，可以选择“暂停”状态。启用版本控制后，您无法禁用它。</block>
+  <block id="06bf9930fc8459e052599e1b5f0a1a7f" category="inline-image-macro">显示如何更改存储桶的版本控制设置的屏幕截图。</block>
+  <block id="41270662bdf0da5996f1a870b9ab5b44" category="paragraph"><block ref="41270662bdf0da5996f1a870b9ab5b44" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="03b6a6f1e13411d253ae1983fe76fa25" category="section-title">添加或更改存储桶中对象的标签</block>
+  <block id="e3463088bdb53d30f897b3ff783db6e9" category="paragraph">标签是可用于对资源进行分组以识别应用程序、环境、区域、云提供商等的元数据。标签由标签键和标签值组成。您可以向存储桶添加标签，以便在将对象添加到存储桶时将标签应用于对象。您还可以更改和删除标签和标签值。</block>
+  <block id="07472cd51c11ae72b9be3780b88a4452" category="inline-link">从 Amazon S3 文档了解有关标记的更多信息</block>
+  <block id="2792aa377cf75383da294983a1c06964" category="paragraph">默认情况下， NetApp控制台创建的新存储桶中的标签是禁用的。<block ref="4051f5e277970bf30a28585f8f548269" category="inline-link-rx"></block> 。</block>
+  <block id="b1a649b71c6a44f55f012f92ab2c0f41" category="inline-image-macro">显示如何为存储桶添加新标签键/值对的屏幕截图。</block>
+  <block id="85aee05e1be511f705baeadd5c969d87" category="paragraph"><block ref="85aee05e1be511f705baeadd5c969d87" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="200e9bd07e779ca538757ee7a91c07d5" category="paragraph">添加标签后，单击“*应用*”保存更改。如果您想添加更多标签，请单击*添加新标签*。每个存储桶最多可以添加 10 个标签。</block>
+  <block id="26d7220e95a948de8f8bee2eb2c05ec8" category="section-title">更改加密设置</block>
+  <block id="a11df6361d05660cc0ba1f6c0558de49" category="paragraph">服务器端加密使您能够在 Amazon S3 目标处加密数据。 Amazon S3 在将数据写入磁盘时在对象级别加密您的数据，并在您访问数据时为您解密。当将来的对象添加到存储桶时，您可以更改所使用的加密设置。</block>
+  <block id="2c147b9d28e184c5c63a643164663ed6" category="inline-link">从 Amazon S3 文档了解有关服务器端加密的更多信息</block>
+  <block id="8fd60e40ed7d4aa8f420186855819fc3" category="paragraph">默认情况下，使用NetApp控制台创建的新存储桶中的“Amazon S3 托管密钥 (SSE-S3)”启用加密。<block ref="af46c8e128e791b9a73e046d29dfa446" category="inline-link-rx"></block> 。</block>
+  <block id="5bf067fcbdb3a0c0eead1be2fc6f3f55" category="paragraph">或者，您可以选择使用“AWS 密钥管理服务密钥 (SSE-KMS)”启用加密。您也可以使用自己的客户提供的密钥（SSE-C）进行加密，但此功能无法通过控制台 UI 获得 - 您必须使用 Amazon 界面。</block>
+  <block id="62391a98e2571a2594662b67b2d076c0" category="inline-image-macro">显示如何更改存储桶使用的加密密钥类型的屏幕截图。</block>
+  <block id="9aaf4516b7333dbc25618cc5541d6c28" category="paragraph"><block ref="9aaf4516b7333dbc25618cc5541d6c28" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f76b7a6398238187f9ab7139f99efa9e" category="paragraph">如果您选择“AWS 密钥管理服务密钥 (SSE-KMS)”，您可以选择已创建的 AWS KMS 密钥，也可以使用 AWS KMS 密钥 ARN（Amazon 资源名称）。</block>
+  <block id="4913270dff142c18b7deff3e020455bb" category="inline-image-macro">显示如何为存储桶选择备用加密设置的屏幕截图。</block>
+  <block id="bf0f1d13b25a835c25ca6497481b616a" category="paragraph"><block ref="bf0f1d13b25a835c25ca6497481b616a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9565d6f3c6daab6a85ad88d83d6afaa3" category="inline-link">从 Amazon S3 文档了解有关 AWS 密钥管理服务的更多信息</block>
+  <block id="6b9ad32bca511ce2ad2c097b7d9a4a78" category="inline-link">使用客户密钥与 AWS 密钥</block>
+  <block id="2a99f2c69d7ca6830beafd559188a1d0" category="paragraph"><block ref="6680152fb638c9052ac94d98bd762821" category="inline-link-rx"></block>以及关于<block ref="ff2983fb7d6b017ffe909b1c26efe536" category="inline-link-rx"></block>。</block>
+  <block id="e48486c33f71dc8e173adb6c6fc66485" category="summary">NetApp以多种方式为NetApp Console 提供支持。全天候提供广泛的免费自助支持选项，例如知识库 (KB) 文章和社区论坛。您的支持注册包含通过网络工单获取的远程技术支持。</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
+  <block id="776abbf4d80cbef17bd3c86ff37b2257" category="paragraph">需要进行支持注册才能获得针对NetApp控制台及其存储解决方案和数据服务的技术支持。还需要支持注册才能启用Cloud Volumes ONTAP系统的关键工作流程。</block>
+  <block id="ba4e23e03f4354a0f1ef2781272c8477" category="paragraph">注册支持并不能使NetApp获得云提供商文件服务的支持。有关云提供商文件服务、其基础设施或使用该服务的任何解决方案的技术支持，请参阅该产品文档中的“获取帮助”。</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">适用于ONTAP 的Amazon FSx</block>
+  <block id="359d8b16e442ffaa72e03c95fcd60448" category="list-text"><block ref="359d8b16e442ffaa72e03c95fcd60448" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="153836c062a78213f2aa165322254aa4" category="list-text"><block ref="153836c062a78213f2aa165322254aa4" category="inline-link-macro-rx"></block></block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="0d592360c983f234b130127efee38805" category="list-text"><block ref="0d592360c983f234b130127efee38805" category="inline-link-macro-rx"></block></block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支持注册概述</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">激活支持权利的注册方式有两种：</block>
+  <block id="869a868c87f6fb61410cfd773b4f1bab" category="list-text">注册您的NetApp控制台帐户序列号（您的 20 位 960xxxxxxxxx 序列号位于控制台中的“支持资源”页面上）。</block>
+  <block id="be0b51de4268d87101344aa0368b4403" category="paragraph">这可作为控制台内任何服务的单一支持订阅 ID。每个控制台帐户都必须注册。</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">在您的云提供商市场中注册与订阅相关的Cloud Volumes ONTAP序列号（这些是 20 位 909201xxxxxxxx 序列号）。</block>
+  <block id="3cf9fb70d6921dd90583621f028a395f" category="paragraph">这些序列号通常称为_PAYGO 序列号_，由NetApp控制台在Cloud Volumes ONTAP部署时生成。</block>
+  <block id="bf516b6498e37e816d29ae43ae132f74" category="paragraph">注册两种类型的序列号可以实现开立支持票和自动生成案例等功能。通过将NetApp支持站点 (NSS) 帐户添加到控制台即可完成注册，如下所述。</block>
+  <block id="ba5983207e417797fefd5b9374ab4a97" category="section-title">注册NetApp控制台以获取NetApp支持</block>
+  <block id="dcb7105ba6e3d9411b05e726848feb80" category="paragraph">要注册支持并激活支持权利，您的NetApp控制台帐户中的一名用户必须将NetApp支持站点帐户与其控制台登录名关联。如何注册NetApp支持取决于您是否已经拥有NetApp支持站点 (NSS) 帐户。</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">拥有 NSS 帐户的现有客户</block>
+  <block id="ed5bddb699a442b85bc1bb8e1516fe57" category="paragraph">如果您是拥有 NSS 帐户的NetApp客户，则只需通过控制台注册即可获得支持。</block>
+  <block id="76bc427c3d9c4b81dc353078b942f991" category="list-text">选择“*管理*”&gt;“*凭证*”。</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">选择*用户凭证*。</block>
+  <block id="e9451600769b4bf4b20ca941ba9e6d19" category="list-text">选择*添加 NSS 凭据*并按照NetApp支持站点 (NSS) 身份验证提示进行操作。</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">要确认注册过程是否成功，请选择“帮助”图标，然后选择“*支持*”。</block>
+  <block id="1d4ea9fd10f6cfcd6f6fe1f861d354a4" category="paragraph">*资源*页面应显示您的控制台帐户已注册以获得支持。</block>
+  <block id="afe8240ca62f4b72006980ff64d371b8" category="paragraph">请注意，如果其他控制台用户尚未将NetApp支持站点帐户与其登录名关联，他们将看不到相同的支持注册状态。但是，这并不意味着您的帐户没有注册支持。只要组织中的一名用户遵循了这些步骤，您的帐户就已注册。</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">现有客户但没有 NSS 账户</block>
+  <block id="42eaca1e1c2d9e1f04e932eeaa6d129d" category="paragraph">如果您是现有的NetApp客户，拥有现有许可证和序列号但没有 NSS 帐户，则需要创建一个 NSS 帐户并将其与您的控制台登录关联。</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp支持站点用户注册表</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">通过完成以下操作创建NetApp支持站点帐户<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">请务必选择适当的用户级别，通常为* NetApp客户/最终用户*。</block>
+  <block id="bd33c4539c7d6985f6edafd4a4f2ba1d" category="list-text">请务必复制上面用于序列号字段的控制台帐户序列号（960xxxx）。这将加快账户处理速度。</block>
+  <block id="9b1f48f88cd439b7a50fe3e76eb8a853" category="list-text">完成以下步骤，将您的新 NSS 帐户与您的控制台登录名关联<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp全新产品</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">如果您是NetApp新用户并且没有 NSS 帐户，请按照以下步骤操作。</block>
+  <block id="e7e9f49f4584c68b9d97c578e73b7583" category="list-text">在控制台的右上角，选择“帮助”图标，然后选择“*支持*”。</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">从支持注册页面找到您的帐户 ID 序列号。</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">帮助菜单的屏幕截图，其中支持是第一个选项</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp 的支持注册网站</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">导航至<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block>并选择*我不是注册的NetApp客户*。</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">填写必填字段（带有红色星号的字段）。</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">在*产品线*字段中，选择*云管理器*，然后选择适用的计费提供商。</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">从上面的步骤 2 复制您的帐户序列号，完成安全检查，然后确认您已阅读 NetApp 的全球数据隐私政策。</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">一封电子邮件会立即发送到提供的邮箱以完成此安全交易。如果几分钟内没有收到验证电子邮件，请务必检查您的垃圾邮件文件夹。</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">从电子邮件中确认操作。</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">确认向NetApp提交您的请求并建议您创建NetApp支持站点帐户。</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">请务必复制上面用于序列号字段的帐户序列号（960xxxx）。这将加快处理速度。</block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成后</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp应该在此过程中与您联系。这是针对新用户的一次性入职培训。</block>
+  <block id="629757336278be576456cf315303b178" category="paragraph">拥有NetApp支持站点帐户后，请按照以下步骤将该帐户与您的控制台登录关联<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">关联 NSS 凭据以获得Cloud Volumes ONTAP支持</block>
+  <block id="f22d1a855e255746a6b925a3b22f7838" category="paragraph">需要将NetApp支持站点凭据与您的控制台帐户关联，才能为Cloud Volumes ONTAP启用以下关键工作流程：</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">注册即用即付Cloud Volumes ONTAP系统以获得支持</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">需要提供您的 NSS 帐户才能激活对您的系统的支持并获得NetApp技术支持资源的访问权限。</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">自带许可证 (BYOL) 时部署Cloud Volumes ONTAP</block>
+  <block id="f3cd224f9506684fa3b5e2b89b2a566c" category="paragraph">需要提供您的 NSS 帐户，以便控制台可以上传您的许可证密钥并启用您购买的期限的订阅。这包括期限续订的自动更新。</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">将Cloud Volumes ONTAP软件升级到最新版本</block>
+  <block id="daf104544b5203a46e1580e1b8583f1f" category="paragraph">将 NSS 凭据与您的NetApp控制台帐户关联与将 NSS 帐户与控制台用户登录关联不同。</block>
+  <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">这些 NSS 凭证与您的特定控制台帐户 ID 相关联。属于控制台组织的用户可以从*支持 &gt; NSS 管理*访问这些凭据。</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">如果您有客户级帐户，则可以添加一个或多个 NSS 帐户。</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您有合作伙伴或经销商帐户，则可以添加一个或多个 NSS 帐户，但不能与客户级帐户一起添加。</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">选择*NSS 管理 &gt; 添加 NSS 帐户*。</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">当出现提示时，选择“*继续*”以重定向到 Microsoft 登录页面。</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp使用 Microsoft Entra ID 作为特定于支持和许可的身份验证服务的身份提供者。</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登录页面，提供您的NetApp支持站点注册的电子邮件地址和密码以执行身份验证过程。</block>
+  <block id="7687b0a57d5cb728d9fb892dfc814715" category="paragraph">这些操作使控制台能够使用您的 NSS 帐户进行许可证下载、软件升级验证和未来支持注册等操作。</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">请注意以下事项：</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS 帐户必须是客户级帐户（不是访客或临时帐户）。您可以拥有多个客户级 NSS 帐户。</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">如果该帐户是合作伙伴级别帐户，则只能有一个 NSS 帐户。如果您尝试添加客户级 NSS 帐户并且合作伙伴级帐户已存在，您将收到以下错误消息：</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">“此帐户不允许使用 NSS 客户类型，因为已经存在不同类型的 NSS 用户。”</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">如果您已有客户级 NSS 帐户并尝试添加合作伙伴级帐户，情况也是如此。</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登录后， NetApp将存储 NSS 用户名。</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">三个水平点的图标</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">这是系统生成的映射到您的电子邮件的 ID。在*NSS 管理*页面上，您可以显示来自<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>菜单。</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要刷新登录凭证令牌，还有一个*更新凭证*选项<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>菜单。</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此选项会提示您再次登录。请注意，这些帐户的令牌将在 90 天后过期。我们将发布通知来提醒您此事。</block>
+  <block id="d443b499b08143f5dc15517928770216" category="summary">在NetApp控制台中发现 S3 存储桶后，您可以使用NetApp数据服务进行备份、分层、分类和数据同步。</block>
+  <block id="49b9d9b89078e5e4f47991c877526750" category="doc">将NetApp数据服务与 S3 存储桶结合使用</block>
+  <block id="fbc9165bab5ddadb1c51f3b8583879a2" category="list-text">使用* NetApp备份和恢复*将数据从本地ONTAP和Cloud Volumes ONTAP系统备份到 S3 对象存储。</block>
+  <block id="27bde24ca56d18f8b44254361b5dfacf" category="paragraph">首先，转到系统页面，然后将本地ONTAP或Cloud Volumes ONTAP系统拖放到您的 Amazon S3 系统上。</block>
+  <block id="7b7fcd600f1d926ca9fe6a7cb21750f2" category="inline-link">了解有关将ONTAP数据备份到 Amazon S3 存储的更多信息</block>
+  <block id="36d69a6474503dc12eb03d9c3d0ae1da" category="paragraph"><block ref="9f57c6763aabcc8b098d417d73deda77" category="inline-link-rx"></block> 。</block>
+  <block id="95dc1a377250c16a45ecb11cbfdf3135" category="list-text">使用* NetApp Cloud Tiering* 将非活动数据从本地ONTAP集群分层到 S3 对象存储。</block>
+  <block id="610b3d16936c0360549876cfc01a37ab" category="paragraph">首先，转到系统页面，然后将本地ONTAP系统拖放到您的 Amazon S3 系统上。</block>
+  <block id="a9dee648c451dbc4fdeeab5bcb9014ed" category="inline-link">了解有关将ONTAP数据分层到 Amazon S3 存储的更多信息</block>
+  <block id="294e46c1260f34e879a6aeff1996c09b" category="paragraph"><block ref="9a9a7aea1877db3b9eac1dc6a8ee9ad0" category="inline-link-rx"></block> 。</block>
+  <block id="bf30e1dc167938e97c2591cd3c510944" category="list-text">使用* NetApp Copy and Sync* 将数据同步到 S3 存储桶或从 S3 存储桶同步数据。</block>
+  <block id="b742aa9d50ddb0f84621b9f8493784db" category="paragraph">首先，转到系统页面并将源系统拖放到目标系统上。您的 Amazon S3 系统可以是源，也可以是目标。</block>
+  <block id="2829616d2eba8bf258b08581862de08f" category="paragraph">您还可以选择您的 Amazon S3 系统，然后单击“服务”面板中的“复制和同步”以将数据同步到 S3 存储桶或从 S3 存储桶同步数据。</block>
+  <block id="d676431aede5e4a521d5c713cc067177" category="inline-link">了解有关NetApp复制和同步服务的更多信息</block>
+  <block id="bedb81eb7ff8425f71336d8931e92105" category="paragraph"><block ref="60fd24ac1125a4c23b2db8c1cc3ed980" category="inline-link-rx"></block> 。</block>
+  <block id="bbbf425db446e9a18580c235b40f3a05" category="list-text">使用* NetApp数据分类*扫描您的 S3 存储桶以查找个人和敏感数据。  NetApp数据分类可以扫描帐户中的任何存储桶，无论该存储桶是否是为NetApp解决方案创建的。</block>
+  <block id="afc327ef29f55ac158f97fd2e57c9bcd" category="paragraph">首先，选择您的 Amazon S3 系统，然后从服务面板的*分类*部分中选择适当的选项来启动对您的 S3 存储桶的扫描。</block>
+  <block id="326e2eb5669e5433c61a5000c39008d4" category="inline-link">了解有关NetApp数据分类服务的更多信息</block>
+  <block id="e3cfe46184136fb25370ea007876c8ec" category="paragraph"><block ref="3509d5b138f91922d82b75e7cae94ee0" category="inline-link-rx"></block> 。</block>
+  <block id="6269943bbab503c57445a47b04897eaa" category="summary">在向NetApp技术支持部门提交支持案例之前，您需要将NetApp支持站点帐户添加到NetApp控制台，然后注册以获得支持。</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">注册以获得支持</block>
+  <block id="24904df7e9008c61d33694a1bc30ed71" category="summary">在 AWS 中安装控制台代理后， NetApp控制台可以自动发现有关安装了控制台代理的 AWS 账户中的 Amazon S3 存储桶的信息。已将 Amazon S3 系统添加到“系统”页面，以便您可以查看此信息。</block>
+  <block id="f7099ec977551c0bfc4264472c0bf927" category="doc">查看您的 Amazon S3 存储桶</block>
+  <block id="268e60750684585da8535ee06736af33" category="paragraph">您可以查看有关 S3 存储桶的详细信息，包括区域、访问策略、帐户、总容量和已用容量等。这些存储桶可用作NetApp备份和恢复、 NetApp分层或NetApp复制和同步操作的目标。此外，您可以使用NetApp数据分类来扫描这些存储桶。</block>
+  <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link">安装控制台代理</block>
+  <block id="cbcef342dab0c01dc40b1fc286cacfef" category="list-text"><block ref="6a49923340dfe8e4d53dfc1a568ab789" category="inline-link-rx"></block>在您想要查看 Amazon S3 存储桶的 AWS 账户中。</block>
+  <block id="68ab6a6d7a40667d53edebc13dbf3f3a" category="list-text">从NetApp控制台菜单中，选择“*存储*”，然后选择“*管理*”。</block>
+  <block id="8713a34f45c886b92e055232072e5c17" category="paragraph">不久之后您应该会自动看到您的 Amazon S3 系统。</block>
+  <block id="86684b0bdfa40b5fc2b9ad768f823210" category="inline-image-macro">Amazon S3 系统的屏幕截图。</block>
+  <block id="c03a324b4d24c8d9a163e16b33bf776d" category="paragraph"><block ref="c03a324b4d24c8d9a163e16b33bf776d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="14bee838adfc88a7c71442c5aeac5e3b" category="list-text">如果您想使用 S3 存储启用NetApp控制台服务，请单击系统并从右侧窗格中选择一个操作。</block>
+  <block id="9402251e996a1a9ec8966233a1a4e5e9" category="inline-link-macro">查看哪些NetApp控制台服务可用，并了解如何将它们与您的 S3 存储桶一起使用</block>
+  <block id="36725292108ca48226f28222e36bb925" category="paragraph"><block ref="c9d23c2637950d5f1b1df895263c4040" category="inline-link-macro-rx"></block> 。</block>
+  <block id="2046f824b24cc2706fc7ed47a86ebafc" category="list-text">单击*进入 S3 系统*，或双击系统，查看有关您的 AWS 账户中的 S3 存储桶的详细信息。</block>
+  <block id="7462056cb7ed96e8e2bfa335d78d9644" category="paragraph">除了默认显示的列之外，您还可以滚动页面来查看存储桶的其他属性；例如，标签的数量，以及是否启用了对象锁定或版本控制。</block>
+  <block id="6aa300e24ddf3ee5a99bbb1cf5bb4a72" category="inline-link-macro">点击此处了解详情</block>
+  <block id="1ae823594c3c722bfffe0b458c0cc8c7" category="paragraph">您可以通过单击NetApp控制台直接更改某些存储桶设置<block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block>拿一桶。<block ref="fb2338c21d7a6262957fb98c8ca54de1" category="inline-link-macro-rx"></block> 。</block>
+  <block id="09939f5de1c156803c6295670449beb2" category="paragraph">您可以通过单击“添加存储桶”来添加新的 S3 存储桶。<block ref="24acb8e540fa67d1a53c15525bc66748" category="inline-link-macro-rx"></block> 。</block>
+  <block id="50eccdd6e3280909836f3a550b5b1046" category="summary">了解NetApp控制台中 Amazon S3 存储的新功能。</block>
+  <block id="804352a77a25abfa823112d44e464706" category="doc">NetApp控制台中 Amazon S3 存储的新增功能</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
+  <block id="eea1e3b9ecdd5e32692761a0a78b9463" category="section-title">2023年3月5日</block>
+  <block id="1aada25bde50e6f700bae8f01a671280" category="sidebar">开始通过NetApp控制台使用 Amazon S3 存储。</block>
+  <block id="3bcfa77ba520ecdb90dbb673cc23cb5e" category="sidebar">Amazon S3 存储文档</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">开始使用</block>
+  <block id="e11597621f115e17031710501eefedbc" category="sidebar">查看您的 Amazon S3 存储桶</block>
+  <block id="fd1c68085eeae378471bac9bc817b052" category="sidebar">管理 S3 存储桶</block>
+  <block id="9734d11f1da890ec7434857fd054fb47" category="sidebar">更改存储桶设置</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="sidebar">更多信息</block>
+  <block id="59be372448aee79086ab0c21e2e7e595" category="sidebar">NetApp控制台之外的管理 Amazon S3 文档</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客和社区</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="sidebar">NetApp控制台</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp数据服务</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
+  <block id="548428f3d8d7f88cdab312aeb124539b" category="sidebar">Amazon S3 存储文档</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
+</blocks>

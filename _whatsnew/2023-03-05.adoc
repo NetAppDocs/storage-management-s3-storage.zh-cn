@@ -1,0 +1,11 @@
+= 能够从BlueXP添加新存储桶
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+
+
+=== 能够从BlueXP添加新存储桶
+
+您已经能够在BlueXP Canvas 上查看 Amazon S3 存储桶很长一段时间了。现在您可以直接从BlueXP添加新的存储桶并更改现有存储桶的属性。 https://docs.netapp.com/us-en/storage-management-s3-storage/task-add-s3-bucket.html["了解如何添加新的 Amazon S3 存储桶"] 。
