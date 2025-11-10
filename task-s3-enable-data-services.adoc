@@ -46,6 +46,6 @@ https://docs.netapp.com/us-en/data-services-copy-sync/concept-cloud-sync.html["�
 首先，选择您的 Amazon S3 系统，然后从服务面板的*分类*部分中选择适当的选项来启动对您的 S3 存储桶的扫描。
 
 +
-https://docs.netapp.com/us-en/data-services-classification/task-scanning-s3.html["了解有关NetApp Data Classification服务的更多信息"^] 。
+https://docs.netapp.com/us-en/data-services-data-classification/task-scanning-s3.html["了解有关NetApp Data Classification服务的更多信息"^]。
 
 

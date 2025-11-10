@@ -180,7 +180,6 @@
   <block id="bbbf425db446e9a18580c235b40f3a05" category="list-text">使用 * NetApp Data Classification* 扫描您的 S3 存储桶以查找个人和敏感数据。  NetApp Data Classification可以扫描帐户中的任何存储桶，无论该存储桶是否是为NetApp解决方案创建的。</block>
   <block id="afc327ef29f55ac158f97fd2e57c9bcd" category="paragraph">首先，选择您的 Amazon S3 系统，然后从服务面板的*分类*部分中选择适当的选项来启动对您的 S3 存储桶的扫描。</block>
   <block id="326e2eb5669e5433c61a5000c39008d4" category="inline-link">了解有关NetApp Data Classification服务的更多信息</block>
-  <block id="e3cfe46184136fb25370ea007876c8ec" category="paragraph"><block ref="3509d5b138f91922d82b75e7cae94ee0" category="inline-link-rx"></block> 。</block>
   <block id="6269943bbab503c57445a47b04897eaa" category="summary">在向NetApp技术支持部门提交支持案例之前，您需要将NetApp支持站点帐户添加到NetApp Console，然后注册以获得支持。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">注册以获得支持</block>
   <block id="24904df7e9008c61d33694a1bc30ed71" category="summary">在 AWS 中安装控制台代理后， NetApp Console可以自动发现有关安装了控制台代理的 AWS 账户中的 Amazon S3 存储桶的信息。已将 Amazon S3 系统添加到“系统”页面，以便您可以查看此信息。</block>
@@ -219,4 +218,5 @@
   <block id="548428f3d8d7f88cdab312aeb124539b" category="sidebar">Amazon S3 存储文档</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
+  <block id="38e4a6ea124be3ae85f0c5c913bd80a7" category="paragraph"><block ref="b2391610bf85b5dbfe9880f4b5f5c77d" category="inline-link-rx"></block>。</block>
 </blocks>
